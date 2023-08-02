@@ -1,0 +1,28 @@
+.fundo{
+    background-color: blueviolet;
+
+}
+.container{
+    display: flex;
+    color: #fff;
+}
+.container form{
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    padding:50px;
+    padding-left: 80px;
+
+}
+
+.container form h1{
+    color: #fff;
+    text-align: center;
+}
+ 
+.btn{
+    width: 250px;
+}
