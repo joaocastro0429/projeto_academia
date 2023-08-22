@@ -1,4 +1,4 @@
- <?php
+<?php
 ?>
 
 <!DOCTYPE html>
@@ -12,17 +12,17 @@
 
 <body>
     <div class="container">
-        <h1>Adcionar alunos</h1>
+        <h1>Cadastrar Usuário</h1>
 
-        <form method="POST" action="adcionar_action.php">
+        <form method="POST" action="adcionar_login.php">
             <label>
-                Nome do Aluno: <br>
+                Nome do Usuário: <br>
                 <input type="text" name="name" class="form-control">
             </label><br><br>
 
             <label>
-                Numero da Matricula: <br>
-                <input type="number" name="matricula" class="form-control" width="100%"><br><br>
+                password: <br>
+                <input type="number" name="password" class="form-control" width="100%"><br><br>
                 <button type="submit" class="btn btn-success">Cadastrar</button>
 
             </label>
