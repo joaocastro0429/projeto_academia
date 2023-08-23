@@ -17,7 +17,7 @@
         <form method="POST" action="adcionar_login.php">
             <label>
                 Nome do Usuário: <br>
-                <input type="text" name="name" class="form-control">
+                <input type="text" name="username" class="form-control">
             </label><br><br>
 
             <label>

@@ -1,14 +1,14 @@
 <?php
 
 
-if(!$username && !$password){
+if(!$name&& !$senha){
 
    require "config.php";
-   $username=filter_input(INPUT_POST,'username');
-   $password=filter_input(INPUT_POST,'password');
+   $name=filter_input(INPUT_POST,'name');
+   $senha=filter_input(INPUT_POST,'senha');
 
 
-   $sql=$con->query("SELECT * FROM users WHERE username='$username' AND password='$password'");
+   $sql=$con->query("SELECT * FROM users WHERE username='$name' AND password='$senha'");
     if($sql->rowCount()>0){
        print_r($sql);
 

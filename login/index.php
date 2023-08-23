@@ -23,11 +23,11 @@
 
         <label for="">
             Usuário: <br>
-            <input type="text" name="username" placeholder="Informe seu nome" class="form-control">
+            <input type="text" name="name" placeholder="Informe seu nome" class="form-control">
         </label><br><br>
         <label for="">
             Password: <br>
-            <input type="text" name="password" placeholder="Informe sua senha" class="form-control">
+            <input type="text" name="senha" placeholder="Informe sua senha" class="form-control">
         </label><br><br>
         <input type="submit" value="Enviar" class="btn btn-primary">
 
