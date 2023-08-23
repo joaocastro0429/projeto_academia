@@ -59,13 +59,9 @@ if ($sql->rowCount() > 0) {
 
    </div>
 
-
-
 </body>
 
 </html>
-
-
 
 <?php
 require "./pagina.php"
